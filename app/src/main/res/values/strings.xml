@@ -8,4 +8,5 @@
     <string name="third_tutorial_message">Para acelerar ou dar ré, incline o dispositivo para frente ou para trás.</string>
     <string name="skip">Pular</string>
     <string name="next">Avançar</string>
+    <string name="back">Voltar</string>
 </resources>
