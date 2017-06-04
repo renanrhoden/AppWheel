@@ -6,4 +6,6 @@
     <string name="second_tutorial_message">Para alterar direções, incline o dispositivo para os lados.</string>
     <string name="acceleration_movement">Aceleração</string>
     <string name="third_tutorial_message">Para acelerar ou dar ré, incline o dispositivo para frente ou para trás.</string>
+    <string name="skip">Pular</string>
+    <string name="next">Avançar</string>
 </resources>

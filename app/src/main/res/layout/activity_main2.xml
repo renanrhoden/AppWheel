@@ -4,12 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.renanrhoden.appwheel.MainActivity"
-    tools:layout_editor_absoluteY="81dp"
+    tools:context="com.example.renanrhoden.appwheel.Main2Activity"
+    tools:layout_editor_absoluteY="25dp"
     tools:layout_editor_absoluteX="0dp">
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
@@ -17,8 +17,8 @@
         android:layout_marginTop="70dp"
         android:background="@color/teal_400"
         android:paddingStart="@dimen/tutorial_padding"
-        android:paddingTop="@dimen/tutorial_padding"
-        android:text="@string/directions_movement"
+        android:paddingTop="10dp"
+        android:text="@string/acceleration_movement"
         android:textColor="@android:color/white"
         android:textSize="@dimen/movement_tutorial"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -29,48 +29,43 @@
         tools:layout_constraintTop_creator="1" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/textView4"
         android:layout_width="0dp"
         android:layout_height="140dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:background="@color/teal_400"
         android:paddingStart="@dimen/tutorial_padding"
-        android:paddingTop="@dimen/tutorial_padding"
-        android:text="@string/second_tutorial_message"
+        android:text="@string/third_tutorial_message"
         android:textColor="@android:color/white"
         android:textSize="@dimen/message_tutorial"
-        app:layout_constraintHorizontal_bias="0.625"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
         tools:layout_constraintLeft_creator="1"
-        tools:layout_constraintRight_creator="1"
-        tools:layout_constraintTop_creator="1" />
+        tools:layout_constraintRight_creator="1" />
 
     <Button
-        android:id="@+id/skipButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="nextTutorialScreen"
-        android:text="@string/skip"
-        app:layout_constraintRight_toLeftOf="@+id/button2"
-        tools:layout_constraintRight_creator="1"
-        tools:layout_constraintBottom_creator="1"
-        app:layout_constraintBottom_toBottomOf="@+id/textView3"
-        android:layout_marginEnd="23dp"
-        android:layout_marginBottom="4dp" />
-
-    <Button
-        android:id="@+id/button2"
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/next"
         tools:layout_constraintRight_creator="1"
         tools:layout_constraintBottom_creator="1"
-        app:layout_constraintBottom_toBottomOf="@+id/textView3"
-        android:layout_marginEnd="7dp"
-        app:layout_constraintRight_toRightOf="@+id/textView3"
+        app:layout_constraintBottom_toBottomOf="@+id/textView4"
+        android:layout_marginEnd="11dp"
+        app:layout_constraintRight_toRightOf="@+id/textView4"
         android:layout_marginBottom="4dp" />
 
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/skip"
+        app:layout_constraintRight_toLeftOf="@+id/button"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="@+id/textView4"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="8dp" />
 </android.support.constraint.ConstraintLayout>
